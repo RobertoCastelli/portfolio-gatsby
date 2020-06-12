@@ -1,0 +1,27 @@
+.nav-container {
+  text-align: center;
+}
+
+.nav-brand {
+  padding-top: 1rem;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.nav-item {
+  padding-right: 1rem;
+  color: var(--secondary-black);
+}
+
+.nav-item:hover {
+  color: var(--main-blue);
+}
+
+a {
+  text-decoration: none;
+}
