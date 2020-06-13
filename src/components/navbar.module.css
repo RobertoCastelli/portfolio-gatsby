@@ -3,13 +3,13 @@
 }
 
 .nav-brand {
-  padding-top: 1rem;
+  width: 28px;
 }
 
 .nav-list {
-  list-style-type: none;
   display: flex;
   justify-content: space-evenly;
+  list-style-type: none;
   padding: 0;
 }
 

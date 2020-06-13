@@ -1,6 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
+import indexStyle from "./index.module.css"
 import "./index.css"
+import { FaReact, FaGithubAlt, FaNodeJs } from "react-icons/fa"
+import { GrGatsbyjs, GrGraphQl } from "react-icons/gr"
+import { DiJavascript1 } from "react-icons/di"
 
 export default function Home() {
   return (
@@ -24,12 +28,22 @@ export default function Home() {
       </div>
       <div>
         <h1># MASTERING</h1>
-        <ul>
-          <li>JAVASCRIPT(HTML/CSS)</li>
-          <li>REACT</li>
-          <li>GATSBY</li>
-          <li>GRAPHQL</li>
-          <li>GITHUB</li>
+        <ul className={indexStyle.indexList}>
+          <li>
+            <DiJavascript1 /> JS (HTML/CSS)
+          </li>
+          <li>
+            <FaReact /> REACT
+          </li>
+          <li>
+            <GrGatsbyjs /> GATSBY & <GrGraphQl /> GRAPHQL
+          </li>
+          <li>
+            <FaNodeJs /> NODE JS
+          </li>
+          <li>
+            <FaGithubAlt /> GITHUB
+          </li>
         </ul>
       </div>
     </Layout>

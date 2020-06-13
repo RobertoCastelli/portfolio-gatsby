@@ -6,10 +6,8 @@ import layoutStyle from "./layout.module.css"
 const Layout = ({ children }) => {
   return (
     <div className={layoutStyle.container}>
-      <div className={layoutStyle.content}>
-        <Navbar />
-        {children}
-      </div>
+      <Navbar />
+      <div className={layoutStyle.content}>{children}</div>
       <Footer />
     </div>
   )

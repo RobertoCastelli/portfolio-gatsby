@@ -24,7 +24,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGlobe />
+            <FaGlobe size={24} />
           </a>
         </li>
         <li className={footerStyle.footerItem}>
@@ -33,7 +33,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GrLinkedinOption />
+            <GrLinkedinOption size={24} />
           </a>
         </li>
         <li className={footerStyle.footerItem}>
@@ -42,7 +42,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub />
+            <FaGithub size={24} />
           </a>
         </li>
       </ul>
