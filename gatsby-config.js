@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Roberto Castelli's portfolio`,
+    title: `Roberto Castelli`,
     description: `Project Manager & Web Developer`,
     author: `Roberto Castelli`,
     siteURL: `www.robertocastelli.dev`,
@@ -13,7 +13,15 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
   ],
 }

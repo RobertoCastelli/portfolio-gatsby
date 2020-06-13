@@ -27,11 +27,13 @@ const Navbar = () => {
   return (
     <div className={navbarStyle.navContainer}>
       <ul className={navbarStyle.navList}>
-        <Img
-          className={navbarStyle.navBrand}
-          fluid={data.file.childImageSharp.fluid}
-          alt="logo"
-        ></Img>
+        <Link to="/">
+          <Img
+            className={navbarStyle.navBrand}
+            fluid={data.file.childImageSharp.fluid}
+            alt="logo"
+          ></Img>
+        </Link>
         <Link to="/">
           <li className={navbarStyle.navItem}>home</li>
         </Link>

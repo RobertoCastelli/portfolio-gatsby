@@ -1,0 +1,13 @@
+.project-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.project-card {
+  border: 1px solid var(--main-black);
+  margin: 0.3rem;
+  width: 8rem;
+  height: 8rem;
+}

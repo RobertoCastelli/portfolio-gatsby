@@ -1,0 +1,122 @@
+[
+  {
+    "title": "NIGHT RUN",
+    "tech": "vanilla JS",
+    "link": "https://to-night-run.netlify.com/"
+  },
+  {
+    "title": "TO DO LIST",
+    "tech": "vue",
+    "link": "https://to-vue-list.netlify.com/"
+  },
+  {
+    "title": "POKEDEX JS",
+    "tech": "JS, API",
+    "link": "https://to-pokedex.netlify.com/"
+  },
+  {
+    "title": "ADVICE SLIP",
+    "tech": "JS, API",
+    "link": "https://to-advice.netlify.com/"
+  },
+  {
+    "title": "WEATHER APP",
+    "tech": "JS, API",
+    "link": "https://to-weather.netlify.com/"
+  },
+  {
+    "title": "8-BALL QUEST",
+    "tech": "JS, API",
+    "link": "https://to-eight.netlify.com/"
+  },
+  {
+    "title": "CREATE MEME",
+    "tech": "react, API",
+    "link": "https://to-meme.netlify.com/"
+  },
+  {
+    "title": "WEATHER APP",
+    "tech": "react, API",
+    "link": "https://to-weather-react.netlify.com/"
+  },
+  {
+    "title": "TECH NEWS",
+    "tech": "react, API",
+    "link": "https://to-news.netlify.com/"
+  },
+  {
+    "title": "READING LIST",
+    "tech": "react",
+    "link": "https://to-books.netlify.com/"
+  },
+  {
+    "title": "METRONOMO",
+    "tech": "react",
+    "link": "https://to-metronome.netlify.com"
+  },
+  {
+    "title": "POST-IT JS",
+    "tech": "vue, database",
+    "link": "https://vue-it-fire.web.app/#/"
+  },
+  {
+    "title": "BUDGET BUDDY",
+    "tech": "local storage",
+    "link": "https://to-budget.netlify.com/"
+  },
+  {
+    "title": "ROCK PAPER",
+    "tech": "vanilla JS",
+    "link": "https://to-rock.netlify.com/"
+  },
+  {
+    "title": "POMO CLOCK",
+    "tech": "vanilla JS",
+    "link": "https://to-pomodoro.netlify.com/"
+  },
+  {
+    "title": "COUNTDOWN",
+    "tech": "vanilla JS",
+    "link": "https://to-countdown.netlify.com/"
+  },
+  {
+    "title": "GO FIX IT APP",
+    "tech": "vanilla JS",
+    "link": "https://to-naajeni.netlify.com/"
+  },
+  {
+    "title": "DRUM MACHINE",
+    "tech": "vanilla JS",
+    "link": "https://to-drum-machine.netlify.com/"
+  },
+  {
+    "title": "QUIZ GAME",
+    "tech": "vanilla JS",
+    "link": "https://to-quiz.netlify.com/"
+  },
+  {
+    "title": "PORTFOLIO",
+    "tech": "vanilla JS",
+    "link": "https://to-portfolio.netlify.com/"
+  },
+  {
+    "title": "ALGORYTHMS ADVANCED",
+    "tech": "vanilla JS",
+    "link": "https://to-fcc-advanced.netlify.com/"
+  },
+  {
+    "title": "WAREHOUSE",
+    "tech": "tables",
+    "link": "https://to-instock.netlify.com/"
+  },
+  {
+    "title": "GAME OF LIFE",
+    "tech": "canvas",
+    "link": "https://to-game-of-life.netlify.com/"
+  },
+  {
+    "title": "SIMPLE PAINT",
+    "tech": "canvas",
+    "link": "https://to-paint.netlify.com/"
+  }
+]

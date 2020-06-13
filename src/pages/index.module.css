@@ -3,23 +3,21 @@
   display: block;
   padding: 0;
   counter-reset: li-counter;
+  width: 50%;
+  margin: auto;
 }
 
 .index-list li {
   position: relative;
   margin-bottom: 0.5rem;
   padding: 0.5rem 2rem;
-
   border-radius: 0.5rem;
-
   background: var(--main-black);
   color: white;
-
-  width: 50%;
 }
 
 @media only screen and (max-width: 760px) {
-  .index-list li {
+  .index-list {
     width: 100%;
   }
 }
@@ -35,11 +33,9 @@
   left: -0.3rem;
   width: 1.5rem;
   font-size: large;
-
   background-color: var(--main-blue);
   color: white;
   text-align: center;
-
   content: counter(li-counter);
   counter-increment: li-counter;
   overflow: hidden;

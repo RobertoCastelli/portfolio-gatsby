@@ -1,0 +1,8 @@
+.error-container {
+  text-align: center;
+}
+
+p span {
+  color: var(--main-blue);
+  font-weight: bold;
+}

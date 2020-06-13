@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import indexStyle from "./index.module.css"
 import "./index.css"
-import { FaReact, FaGithubAlt, FaNodeJs } from "react-icons/fa"
+import { FaReact, FaGithubAlt, FaHtml5, FaCss3Alt } from "react-icons/fa"
 import { GrGatsbyjs, GrGraphQl } from "react-icons/gr"
 import { DiJavascript1 } from "react-icons/di"
 
@@ -30,19 +30,19 @@ export default function Home() {
         <h1># MASTERING</h1>
         <ul className={indexStyle.indexList}>
           <li>
-            <DiJavascript1 /> JS (HTML/CSS)
+            <DiJavascript1 /> JS + <FaHtml5 /> HTML + <FaCss3Alt /> CSS
           </li>
           <li>
             <FaReact /> REACT
           </li>
           <li>
-            <GrGatsbyjs /> GATSBY & <GrGraphQl /> GRAPHQL
+            <GrGatsbyjs /> GATSBY
           </li>
           <li>
-            <FaNodeJs /> NODE JS
+            <GrGraphQl /> GRAPHQL
           </li>
           <li>
-            <FaGithubAlt /> GITHUB
+            <FaGithubAlt /> GIT
           </li>
         </ul>
       </div>

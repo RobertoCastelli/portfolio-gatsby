@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
 @import url("https://fonts.googleapis.com/css?family=Walter+Turncoat");
 
 :root {
@@ -20,10 +20,13 @@ html {
 }
 
 body {
-  font-family: "Walter Turncoat", cursive;
   /* font-family: "Roboto", sans-serif; */
+  font-family: "Walter Turncoat", cursive;
   letter-spacing: 0.07rem;
   background-color: var(--main-bg);
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--secondary-black);
   overflow-y: scroll;
   width: 100%;
@@ -33,4 +36,5 @@ body {
 h1 {
   color: var(--main-black);
   margin-top: 2rem;
+  text-align: center;
 }
