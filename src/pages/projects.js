@@ -8,12 +8,13 @@ const Projects = () => {
   const data = useStaticQuery(graphql`
     query {
       allDataJson {
+        totalCount
         edges {
           node {
             id
-            title
+            img
             tech
-            link
+            title
           }
         }
       }
@@ -23,9 +24,17 @@ const Projects = () => {
   return (
     <Layout>
       <h1># PROJECTS</h1>
+      <p>{data.allDataJson.totalCount}</p>
       <div className={projectStyle.projectContainer}>
         {data.allDataJson.edges.map(({ node }) => {
-          return <Project title={node.title} tech={node.tech} />
+          return (
+            <Project
+              key={node.id}
+              title={node.title}
+              tech={node.tech}
+              src={node.img}
+            />
+          )
         })}
       </div>
     </Layout>

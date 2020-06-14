@@ -35,7 +35,7 @@ const Navbar = () => {
           ></Img>
         </Link>
         <Link to="/">
-          <li className={navbarStyle.navItem}>home</li>
+          <li className={navbarStyle.navItem}>about me</li>
         </Link>
         <Link to="/projects">
           <li className={navbarStyle.navItem}>projects</li>

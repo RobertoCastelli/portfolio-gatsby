@@ -1,122 +1,146 @@
 [
   {
     "title": "NIGHT RUN",
+    "img": "https://via.placeholder.com/100",
     "tech": "vanilla JS",
     "link": "https://to-night-run.netlify.com/"
   },
   {
     "title": "TO DO LIST",
     "tech": "vue",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-vue-list.netlify.com/"
   },
   {
     "title": "POKEDEX JS",
     "tech": "JS, API",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-pokedex.netlify.com/"
   },
   {
     "title": "ADVICE SLIP",
     "tech": "JS, API",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-advice.netlify.com/"
   },
   {
     "title": "WEATHER APP",
     "tech": "JS, API",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-weather.netlify.com/"
   },
   {
     "title": "8-BALL QUEST",
     "tech": "JS, API",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-eight.netlify.com/"
   },
   {
     "title": "CREATE MEME",
     "tech": "react, API",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-meme.netlify.com/"
   },
   {
     "title": "WEATHER APP",
     "tech": "react, API",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-weather-react.netlify.com/"
   },
   {
     "title": "TECH NEWS",
     "tech": "react, API",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-news.netlify.com/"
   },
   {
     "title": "READING LIST",
     "tech": "react",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-books.netlify.com/"
   },
   {
     "title": "METRONOMO",
     "tech": "react",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-metronome.netlify.com"
   },
   {
     "title": "POST-IT JS",
     "tech": "vue, database",
+    "img": "https://via.placeholder.com/100",
     "link": "https://vue-it-fire.web.app/#/"
   },
   {
     "title": "BUDGET BUDDY",
     "tech": "local storage",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-budget.netlify.com/"
   },
   {
     "title": "ROCK PAPER",
     "tech": "vanilla JS",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-rock.netlify.com/"
   },
   {
     "title": "POMO CLOCK",
     "tech": "vanilla JS",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-pomodoro.netlify.com/"
   },
   {
     "title": "COUNTDOWN",
     "tech": "vanilla JS",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-countdown.netlify.com/"
   },
   {
     "title": "GO FIX IT APP",
     "tech": "vanilla JS",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-naajeni.netlify.com/"
   },
   {
     "title": "DRUM MACHINE",
     "tech": "vanilla JS",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-drum-machine.netlify.com/"
   },
   {
     "title": "QUIZ GAME",
     "tech": "vanilla JS",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-quiz.netlify.com/"
   },
   {
     "title": "PORTFOLIO",
     "tech": "vanilla JS",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-portfolio.netlify.com/"
   },
   {
     "title": "ALGORYTHMS ADVANCED",
     "tech": "vanilla JS",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-fcc-advanced.netlify.com/"
   },
   {
     "title": "WAREHOUSE",
     "tech": "tables",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-instock.netlify.com/"
   },
   {
     "title": "GAME OF LIFE",
     "tech": "canvas",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-game-of-life.netlify.com/"
   },
   {
     "title": "SIMPLE PAINT",
     "tech": "canvas",
+    "img": "https://via.placeholder.com/100",
     "link": "https://to-paint.netlify.com/"
   }
 ]
