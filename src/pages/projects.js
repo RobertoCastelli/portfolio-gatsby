@@ -12,9 +12,15 @@ const Projects = () => {
         edges {
           node {
             id
-            img
             tech
             title
+            src {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
@@ -24,7 +30,9 @@ const Projects = () => {
   return (
     <Layout>
       <h1># PROJECTS</h1>
-      <p>{data.allDataJson.totalCount}</p>
+      <p className={projectStyle.projectTotalCount}>
+        total projects: n° {data.allDataJson.totalCount}
+      </p>
       <div className={projectStyle.projectContainer}>
         {data.allDataJson.edges.map(({ node }) => {
           return (
@@ -32,7 +40,7 @@ const Projects = () => {
               key={node.id}
               title={node.title}
               tech={node.tech}
-              src={node.img}
+              fluid={node.src.childImageSharp.fluid}
             />
           )
         })}

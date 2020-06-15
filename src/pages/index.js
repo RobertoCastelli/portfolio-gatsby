@@ -30,7 +30,7 @@ export default function Home() {
         <h1># MASTERING</h1>
         <ul className={indexStyle.indexList}>
           <li>
-            <DiJavascript1 /> JS + <FaHtml5 /> HTML + <FaCss3Alt /> CSS
+            <DiJavascript1 /> JS (<FaHtml5 /> HTML + <FaCss3Alt /> CSS)
           </li>
           <li>
             <FaReact /> REACT

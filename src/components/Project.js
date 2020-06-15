@@ -1,17 +1,20 @@
 import React from "react"
 import projectStyle from "./project.module.css"
+import Img from "gatsby-image"
 
 const Project = props => {
   return (
     <div className={projectStyle.projectCard}>
-      <img
-        className={projectStyle.projectImage}
-        src={props.src}
-        alt="project-img"
-      />
+      <div>
+        <Img
+          className={projectStyle.projectImage}
+          fluid={props.fluid}
+          alt="project-img"
+        />
+      </div>
       <div className={projectStyle.projectContext}>
-        <h4>{props.title}</h4>
-        <p>{props.tech}</p>
+        <dv className={projectStyle.projectTitle}>{props.title}</dv>
+        <div className={projectStyle.projectTag}>{props.tech}</div>
       </div>
     </div>
   )
