@@ -73,7 +73,7 @@
   },
   {
     "title": "BUDGET BUDDY",
-    "tech": "local storage",
+    "tech": "localstorage",
     "src": "../images/dune.jpg",
     "link": "https://to-budget.netlify.com/"
   },

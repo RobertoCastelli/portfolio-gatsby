@@ -14,6 +14,7 @@ const Projects = () => {
             id
             tech
             title
+            link
             src {
               childImageSharp {
                 fluid {
@@ -40,6 +41,7 @@ const Projects = () => {
               key={node.id}
               title={node.title}
               tech={node.tech}
+              link={node.link}
               fluid={node.src.childImageSharp.fluid}
             />
           )
