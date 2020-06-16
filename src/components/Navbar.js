@@ -25,7 +25,7 @@ const Navbar = () => {
   `)
 
   return (
-    <div className={navbarStyle.navContainer}>
+    <nav className={navbarStyle.navContainer}>
       <ul className={navbarStyle.navList}>
         <Link to="/">
           <Img
@@ -34,20 +34,32 @@ const Navbar = () => {
             alt="logo"
           ></Img>
         </Link>
-        <Link to="/">
-          <li className={navbarStyle.navItem}>about me</li>
+        <Link
+          className={navbarStyle.navItem}
+          activeClassName={navbarStyle.activeNavItem}
+          to="/"
+        >
+          <li>about me</li>
         </Link>
-        <Link to="/projects">
-          <li className={navbarStyle.navItem}>projects</li>
+        <Link
+          className={navbarStyle.navItem}
+          activeClassName={navbarStyle.activeNavItem}
+          to="/projects"
+        >
+          <li>projects</li>
         </Link>
-        <Link to="/blog">
-          <li className={navbarStyle.navItem}>blog</li>
+        <Link
+          className={navbarStyle.navItem}
+          activeClassName={navbarStyle.activeNavItem}
+          to="/blog"
+        >
+          <li>blog</li>
         </Link>
       </ul>
 
       <h1>{data.site.siteMetadata.title}</h1>
       <p>{data.site.siteMetadata.description}</p>
-    </div>
+    </nav>
   )
 }
 

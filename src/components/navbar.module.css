@@ -25,3 +25,8 @@
 a {
   text-decoration: none;
 }
+
+.active-nav-item {
+  font-weight: bold;
+  color: var(--main-blue);
+}
