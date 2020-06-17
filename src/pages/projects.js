@@ -7,7 +7,7 @@ import { graphql, useStaticQuery } from "gatsby"
 const Projects = () => {
   const data = useStaticQuery(graphql`
     query {
-      allDataJson {
+      allDataJson(sort: { order: ASC, fields: tech }) {
         totalCount
         edges {
           node {

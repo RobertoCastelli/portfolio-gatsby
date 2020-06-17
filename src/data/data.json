@@ -1,146 +1,146 @@
 [
   {
     "title": "NIGHT RUN",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgnight.jpg",
     "tech": "vanilla JS",
     "link": "https://to-night-run.netlify.com/"
   },
   {
     "title": "TO DO LIST",
     "tech": "vue",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgtodo.jpg",
     "link": "https://to-vue-list.netlify.com/"
   },
   {
     "title": "POKEDEX JS",
     "tech": "JS, API",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgpoke.jpg",
     "link": "https://to-pokedex.netlify.com/"
   },
   {
     "title": "ADVICE SLIP",
     "tech": "JS, API",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgadvice.jpg",
     "link": "https://to-advice.netlify.com/"
   },
   {
     "title": "WEATHER APP",
     "tech": "JS, API",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgweather.jpg",
     "link": "https://to-weather.netlify.com/"
   },
   {
     "title": "8-BALL QUEST",
     "tech": "JS, API",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgeightball.jpg",
     "link": "https://to-eight.netlify.com/"
   },
   {
     "title": "CREATE MEME",
     "tech": "react, API",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgmeme.jpg",
     "link": "https://to-meme.netlify.com/"
   },
   {
     "title": "WEATHER APP",
     "tech": "react, API",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgweather2.jpg",
     "link": "https://to-weather-react.netlify.com/"
   },
   {
     "title": "TECH NEWS",
     "tech": "react, API",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgnews.jpg",
     "link": "https://to-news.netlify.com/"
   },
   {
     "title": "READING LIST",
     "tech": "react",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgbooks.png",
     "link": "https://to-books.netlify.com/"
   },
   {
     "title": "METRONOMO",
     "tech": "react",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgmetro.png",
     "link": "https://to-metronome.netlify.com"
   },
   {
     "title": "POST-IT JS",
-    "tech": "vue, database",
-    "src": "../images/dune.jpg",
+    "tech": "vue",
+    "src": "../images/bgpostit.jpg",
     "link": "https://vue-it-fire.web.app/#/"
   },
   {
     "title": "BUDGET BUDDY",
-    "tech": "localstorage",
-    "src": "../images/dune.jpg",
+    "tech": "tables",
+    "src": "../images/bgbudget.jpg",
     "link": "https://to-budget.netlify.com/"
   },
   {
     "title": "ROCK PAPER",
     "tech": "vanilla JS",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgrock.jpg",
     "link": "https://to-rock.netlify.com/"
   },
   {
     "title": "POMO CLOCK",
     "tech": "vanilla JS",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgpomodoro.png",
     "link": "https://to-pomodoro.netlify.com/"
   },
   {
     "title": "COUNTDOWN",
     "tech": "vanilla JS",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgcountdown.jpg",
     "link": "https://to-countdown.netlify.com/"
   },
   {
     "title": "GO FIX IT APP",
     "tech": "vanilla JS",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgsplit.jpg",
     "link": "https://to-naajeni.netlify.com/"
   },
   {
     "title": "DRUM MACHINE",
     "tech": "vanilla JS",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgdrum.jpg",
     "link": "https://to-drum-machine.netlify.com/"
   },
   {
     "title": "QUIZ GAME",
     "tech": "vanilla JS",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgquiz.jpg",
     "link": "https://to-quiz.netlify.com/"
   },
   {
     "title": "PORTFOLIO",
     "tech": "vanilla JS",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgportfolio.jpg",
     "link": "https://to-portfolio.netlify.com/"
   },
   {
     "title": "ALGORYTHMS ADVANCED",
     "tech": "vanilla JS",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgadvanced.png",
     "link": "https://to-fcc-advanced.netlify.com/"
   },
   {
     "title": "WAREHOUSE",
     "tech": "tables",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgwarehouse.png",
     "link": "https://to-instock.netlify.com/"
   },
   {
     "title": "GAME OF LIFE",
     "tech": "canvas",
-    "src": "../images/dune.jpg",
+    "src": "../images/bggame.png",
     "link": "https://to-game-of-life.netlify.com/"
   },
   {
     "title": "SIMPLE PAINT",
     "tech": "canvas",
-    "src": "../images/dune.jpg",
+    "src": "../images/bgpaintalt.jpg",
     "link": "https://to-paint.netlify.com/"
   }
 ]
