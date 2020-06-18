@@ -29,21 +29,51 @@ export default function Home() {
       <div>
         <h1># MASTERING</h1>
         <ul className={indexStyle.indexList}>
-          <li>
-            <DiJavascript1 /> JS (<FaHtml5 /> HTML + <FaCss3Alt /> CSS)
-          </li>
-          <li>
-            <FaReact /> REACT
-          </li>
-          <li>
-            <GrGatsbyjs /> GATSBY
-          </li>
-          <li>
-            <GrGraphQl /> GRAPHQL
-          </li>
-          <li>
-            <FaGithubAlt /> GIT
-          </li>
+          <a
+            href="https://developer.mozilla.org/it/docs/Web/JavaScript"
+            target="_black"
+            rel="noreferral noopener"
+          >
+            <li>
+              <DiJavascript1 /> JS (<FaHtml5 /> HTML + <FaCss3Alt /> CSS)
+            </li>
+          </a>
+          <a
+            href="https://it.reactjs.org/"
+            target="_blank"
+            rel="noreferral noopener"
+          >
+            <li>
+              <FaReact /> REACT
+            </li>
+          </a>
+          <a
+            href="https://www.gatsbyjs.org/"
+            target="_blank"
+            rel="norefferal noopener"
+          >
+            <li>
+              <GrGatsbyjs /> GATSBY
+            </li>
+          </a>
+          <a
+            href="https://graphql.org/"
+            target="_blank"
+            rel="noopener noreferral"
+          >
+            <li>
+              <GrGraphQl /> GRAPHQL
+            </li>
+          </a>
+          <a
+            href="https://github.com/RobertoCastelli"
+            target="_blank"
+            rel="norefferal noopener"
+          >
+            <li>
+              <FaGithubAlt /> GIT
+            </li>
+          </a>
         </ul>
       </div>
     </Layout>
