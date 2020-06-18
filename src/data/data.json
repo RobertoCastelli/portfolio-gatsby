@@ -2,7 +2,7 @@
   {
     "title": "NIGHT RUN",
     "src": "../images/bgnight.jpg",
-    "tech": "vanilla JS",
+    "tech": "javascript",
     "link": "https://to-night-run.netlify.com/"
   },
   {
@@ -13,43 +13,43 @@
   },
   {
     "title": "POKEDEX JS",
-    "tech": "JS, API",
+    "tech": "api",
     "src": "../images/bgpoke.jpg",
     "link": "https://to-pokedex.netlify.com/"
   },
   {
     "title": "ADVICE SLIP",
-    "tech": "JS, API",
+    "tech": "api",
     "src": "../images/bgadvice.jpg",
     "link": "https://to-advice.netlify.com/"
   },
   {
     "title": "WEATHER APP",
-    "tech": "JS, API",
+    "tech": "api",
     "src": "../images/bgweather.jpg",
     "link": "https://to-weather.netlify.com/"
   },
   {
     "title": "8-BALL QUEST",
-    "tech": "JS, API",
+    "tech": "api",
     "src": "../images/bgeightball.jpg",
     "link": "https://to-eight.netlify.com/"
   },
   {
     "title": "CREATE MEME",
-    "tech": "react, API",
+    "tech": "react, api",
     "src": "../images/bgmeme.jpg",
     "link": "https://to-meme.netlify.com/"
   },
   {
     "title": "WEATHER APP",
-    "tech": "react, API",
+    "tech": "react, api",
     "src": "../images/bgweather2.jpg",
     "link": "https://to-weather-react.netlify.com/"
   },
   {
     "title": "TECH NEWS",
-    "tech": "react, API",
+    "tech": "react, api",
     "src": "../images/bgnews.jpg",
     "link": "https://to-news.netlify.com/"
   },
@@ -79,49 +79,49 @@
   },
   {
     "title": "ROCK PAPER",
-    "tech": "vanilla JS",
+    "tech": "javascript",
     "src": "../images/bgrock.jpg",
     "link": "https://to-rock.netlify.com/"
   },
   {
     "title": "POMO CLOCK",
-    "tech": "vanilla JS",
+    "tech": "javascript",
     "src": "../images/bgpomodoro.png",
     "link": "https://to-pomodoro.netlify.com/"
   },
   {
     "title": "COUNTDOWN",
-    "tech": "vanilla JS",
+    "tech": "javascript",
     "src": "../images/bgcountdown.jpg",
     "link": "https://to-countdown.netlify.com/"
   },
   {
     "title": "GO FIX IT APP",
-    "tech": "vanilla JS",
+    "tech": "javascript",
     "src": "../images/bgsplit.jpg",
     "link": "https://to-naajeni.netlify.com/"
   },
   {
     "title": "DRUM MACHINE",
-    "tech": "vanilla JS",
+    "tech": "javascript",
     "src": "../images/bgdrum.jpg",
     "link": "https://to-drum-machine.netlify.com/"
   },
   {
     "title": "QUIZ GAME",
-    "tech": "vanilla JS",
+    "tech": "javascript",
     "src": "../images/bgquiz.jpg",
     "link": "https://to-quiz.netlify.com/"
   },
   {
     "title": "PORTFOLIO",
-    "tech": "vanilla JS",
+    "tech": "javascript",
     "src": "../images/bgportfolio.jpg",
     "link": "https://to-portfolio.netlify.com/"
   },
   {
     "title": "ALGORYTHMS ADVANCED",
-    "tech": "vanilla JS",
+    "tech": "javascript",
     "src": "../images/bgadvanced.png",
     "link": "https://to-fcc-advanced.netlify.com/"
   },
@@ -142,5 +142,11 @@
     "tech": "canvas",
     "src": "../images/bgpaintalt.jpg",
     "link": "https://to-paint.netlify.com/"
+  },
+  {
+    "title": "E-STORE",
+    "tech": "react",
+    "src": "../images/bgstore.png",
+    "link": "https://to-store.netlify.com/"
   }
 ]

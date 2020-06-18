@@ -32,7 +32,7 @@ export default function Home() {
           <a
             href="https://developer.mozilla.org/it/docs/Web/JavaScript"
             target="_black"
-            rel="noreferral noopener"
+            rel="noreferrer noopener"
           >
             <li>
               <DiJavascript1 /> JS (<FaHtml5 /> HTML + <FaCss3Alt /> CSS)
@@ -41,7 +41,7 @@ export default function Home() {
           <a
             href="https://it.reactjs.org/"
             target="_blank"
-            rel="noreferral noopener"
+            rel="noreferrer noopener"
           >
             <li>
               <FaReact /> REACT
@@ -50,7 +50,7 @@ export default function Home() {
           <a
             href="https://www.gatsbyjs.org/"
             target="_blank"
-            rel="norefferal noopener"
+            rel="noreferrer noopener"
           >
             <li>
               <GrGatsbyjs /> GATSBY
@@ -59,7 +59,7 @@ export default function Home() {
           <a
             href="https://graphql.org/"
             target="_blank"
-            rel="noopener noreferral"
+            rel="noreferrer noreferrer"
           >
             <li>
               <GrGraphQl /> GRAPHQL
@@ -68,7 +68,7 @@ export default function Home() {
           <a
             href="https://github.com/RobertoCastelli"
             target="_blank"
-            rel="norefferal noopener"
+            rel="noreferrer noopener"
           >
             <li>
               <FaGithubAlt /> GIT

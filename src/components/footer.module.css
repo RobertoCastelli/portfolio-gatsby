@@ -1,7 +1,6 @@
 .footer {
   flex-shrink: 0;
   text-align: center;
-  color: var(--main-black);
 }
 
 .footer-list {
