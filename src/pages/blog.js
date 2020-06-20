@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery, Link } from "gatsby"
 import blogStyle from "./blog.module.css"
 import Img from "gatsby-image"
 
@@ -21,17 +21,13 @@ const Blog = () => {
     <div>
       <Layout>
         <h1># DIARY OF AN IMPOSTOR</h1>
-        <a
-          href="https://to-myblog.netlify.app/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
+        <Link to="/posts">
           <Img
             className={blogStyle.blogImage}
             fluid={data.file.childImageSharp.fluid}
             alt="blog-img"
           />
-        </a>
+        </Link>
         <div className="blog-content">
           <i>
             "Impostor syndrome is a psychological pattern in which an individual
