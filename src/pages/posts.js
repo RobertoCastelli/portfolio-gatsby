@@ -7,13 +7,14 @@ import postStyle from "../components/post.module.css"
 const Posts = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
         edges {
           node {
             frontmatter {
               date
               intro
               title
+              tags
             }
             id
             timeToRead
@@ -30,13 +31,22 @@ const Posts = () => {
       <ul className={postStyle.postList}>
         {query.map(({ node }) => {
           return (
-            <li className={postStyle.postItem}>
+            <li key={node.id} className={postStyle.postItem}>
               <Post
                 title={node.frontmatter.title}
                 date={node.frontmatter.date}
                 intro={node.frontmatter.intro}
                 timeToRead={node.timeToRead}
               />
+              <ul className={postStyle.tagList}>
+                {node.frontmatter.tags.map((tag, i) => {
+                  return (
+                    <li key={i} className={postStyle.tagItem}>
+                      {tag}
+                    </li>
+                  )
+                })}
+              </ul>
             </li>
           )
         })}

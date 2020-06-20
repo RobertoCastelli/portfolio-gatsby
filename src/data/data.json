@@ -127,7 +127,7 @@
   },
   {
     "title": "WAREHOUSE",
-    "tech": "tables",
+    "tech": "database",
     "src": "../images/bgwarehouse.png",
     "link": "https://to-instock.netlify.com/"
   },
