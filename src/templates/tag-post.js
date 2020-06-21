@@ -1,35 +1,37 @@
 import React from "react"
-import { graphql, useStaticQuery, Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Post from "../components/Post"
 import Layout from "../components/Layout"
 import postStyle from "../components/post.module.css"
 
-const Posts = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
-        edges {
-          node {
-            frontmatter {
-              date
-              intro
-              title
-              tags
-            }
-            id
-            timeToRead
+export const data = graphql`
+  query($tag: String!) {
+    allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
+    ) {
+      edges {
+        node {
+          id
+          timeToRead
+          frontmatter {
+            title
+            date
+            tags
+            intro
           }
         }
       }
     }
-  `)
+  }
+`
 
-  const query = data.allMarkdownRemark.edges
+const TagPost = ({ data }) => {
   return (
     <Layout>
       <h1># POSTS</h1>
       <ul className={postStyle.postList}>
-        {query.map(({ node }) => {
+        {data.allMarkdownRemark.edges.map(({ node }) => {
           return (
             <li key={node.id} className={postStyle.postItem}>
               <Post
@@ -57,4 +59,4 @@ const Posts = () => {
   )
 }
 
-export default Posts
+export default TagPost
