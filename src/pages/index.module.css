@@ -23,7 +23,7 @@
 }
 
 .index-list li:hover {
-  box-shadow: inset -1rem 0 var(--main-blue);
+  box-shadow: inset -1rem 0 cadetblue;
   transition: box-shadow 0.5s;
 }
 
@@ -33,7 +33,7 @@
   left: -0.3rem;
   width: 1.5rem;
   font-size: large;
-  background-color: var(--main-blue);
+  background-color: cadetblue;
   color: white;
   text-align: center;
   content: counter(li-counter);

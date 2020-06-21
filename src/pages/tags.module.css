@@ -1,0 +1,48 @@
+.tags-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.tags-list {
+  padding: 0;
+  list-style-type: none;
+  width: 50%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 760px) {
+  .tags-list {
+    width: 100%;
+  }
+}
+.tags-item:hover {
+  box-shadow: inset -1rem 0 cadetblue;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
+
+.tags-item {
+  position: relative;
+  margin-bottom: 0.5rem;
+  background-color: #333333;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  color: white;
+}
+
+.tags-badge {
+  position: absolute;
+  top: -0.1rem;
+  left: -0.3rem;
+  width: 1.5rem;
+  font-size: large;
+  text-align: center;
+  transform: rotate(-20deg);
+  background-color: cadetblue;
+  color: white;
+  overflow: hidden;
+  z-index: 99;
+}
