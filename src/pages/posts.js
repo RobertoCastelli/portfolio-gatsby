@@ -39,10 +39,10 @@ const Posts = () => {
                 timeToRead={node.timeToRead}
               />
               <ul className={postStyle.tagList}>
-                {node.frontmatter.tags.map((tag, i) => {
+                {node.frontmatter.tags.map((tag, id) => {
                   return (
                     <Link to={`/tags/${tag}`}>
-                      <li key={i} className={postStyle.tagItem}>
+                      <li key={id} className={postStyle.tagItem}>
                         {tag}
                       </li>
                     </Link>

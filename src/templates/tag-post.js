@@ -26,10 +26,16 @@ export const data = graphql`
   }
 `
 
-const TagPost = ({ data }) => {
+const TagPost = ({ data, location }) => {
+  // pop the URL target
+  let urls = location.pathname
+  urls = urls.split("/").pop()
+
   return (
     <Layout>
-      <h1># POSTS</h1>
+      <h1>
+        # POSTS <i>({urls})</i>
+      </h1>
       <ul className={postStyle.postList}>
         {data.allMarkdownRemark.edges.map(({ node }) => {
           return (

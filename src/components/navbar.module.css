@@ -30,3 +30,24 @@ a {
   font-weight: bold;
   color: cadetblue;
 }
+
+.nav-drop {
+  position: relative;
+}
+
+.nav-drop-content {
+  list-style-type: none;
+  padding: 0;
+  z-index: 1;
+  position: absolute;
+  display: none;
+  color: var(--secondary-black);
+}
+
+.nav-drop:hover .nav-drop-content {
+  display: flex;
+}
+
+.nav-drop-content li {
+  margin: 0.5rem 1rem 0 0;
+}

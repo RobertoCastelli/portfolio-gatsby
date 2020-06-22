@@ -53,7 +53,13 @@ const Navbar = () => {
           activeClassName={navbarStyle.activeNavItem}
           to="/blog"
         >
-          <li>blog</li>
+          <li className={navbarStyle.navDrop}>
+            blog
+            <ul className={navbarStyle.navDropContent}>
+              <li>posts</li>
+              <li>tags</li>
+            </ul>
+          </li>
         </Link>
         <Link
           className={navbarStyle.navItem}

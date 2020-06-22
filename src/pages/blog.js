@@ -40,10 +40,9 @@ const Blog = () => {
             field to enhance my career?
           </p>
           <p>
-            I began putting every possible effort to achieve this goal (and
-            still continuing to do so). This blog is a story in continuous
-            evolution to keep track of my progress, paths, errors, achievements
-            in the hopes of helping other people to share this adventure.
+            This blog is a story in continuous evolution to keep track of my
+            progress, paths, errors, achievements in the hopes of helping other
+            people to share this adventure.
           </p>
           <p>
             Special thanks to Daniele Di Lucido & Jaga Santagostino, my mentor.
