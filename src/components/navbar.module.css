@@ -44,8 +44,8 @@ a {
   color: var(--secondary-black);
 }
 
-.nav-drop:hover .nav-drop-content {
-  display: flex;
+.show {
+  display: block;
 }
 
 .nav-drop-content li {

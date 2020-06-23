@@ -12,6 +12,9 @@ export const data = graphql`
     ) {
       edges {
         node {
+          fields {
+            slug
+          }
           id
           timeToRead
           frontmatter {
@@ -40,12 +43,14 @@ const TagPost = ({ data, location }) => {
         {data.allMarkdownRemark.edges.map(({ node }) => {
           return (
             <li key={node.id} className={postStyle.postItem}>
-              <Post
-                title={node.frontmatter.title}
-                date={node.frontmatter.date}
-                intro={node.frontmatter.intro}
-                timeToRead={node.timeToRead}
-              />
+              <Link to={`/posts/${node.fields.slug}`}>
+                <Post
+                  title={node.frontmatter.title}
+                  date={node.frontmatter.date}
+                  intro={node.frontmatter.intro}
+                  timeToRead={node.timeToRead}
+                />
+              </Link>
               <ul className={postStyle.tagList}>
                 {node.frontmatter.tags.map((tag, i) => {
                   return (

@@ -18,6 +18,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const templates = {
     tagTemplate: path.resolve("src/templates/tag-post.js"),
+    blogTemplate: path.resolve("src/templates/blog-post.js"),
   }
   const response = await graphql(`
     query {
@@ -35,6 +36,17 @@ module.exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
+
+  const posts = response.data.allMarkdownRemark.edges
+  posts.forEach(({ node }) => {
+    createPage({
+      path: `/posts/${node.fields.slug}`,
+      component: templates.blogTemplate,
+      context: {
+        slug: node.fields.slug,
+      },
+    })
+  })
 
   const tags = response.data.allMarkdownRemark.group
   tags.forEach(tag => {

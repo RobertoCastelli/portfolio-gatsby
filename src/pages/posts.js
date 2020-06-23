@@ -10,6 +10,9 @@ const Posts = () => {
       allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               date
               intro
@@ -32,12 +35,14 @@ const Posts = () => {
         {query.map(({ node }) => {
           return (
             <li key={node.id} className={postStyle.postItem}>
-              <Post
-                title={node.frontmatter.title}
-                date={node.frontmatter.date}
-                intro={node.frontmatter.intro}
-                timeToRead={node.timeToRead}
-              />
+              <Link to={`/posts/${node.fields.slug}`}>
+                <Post
+                  title={node.frontmatter.title}
+                  date={node.frontmatter.date}
+                  intro={node.frontmatter.intro}
+                  timeToRead={node.timeToRead}
+                />
+              </Link>
               <ul className={postStyle.tagList}>
                 {node.frontmatter.tags.map((tag, id) => {
                   return (
