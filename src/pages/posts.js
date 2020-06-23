@@ -3,6 +3,7 @@ import { graphql, useStaticQuery, Link } from "gatsby"
 import Post from "../components/Post"
 import Layout from "../components/Layout"
 import postStyle from "../components/post.module.css"
+import Navblog from "../components/Navblog"
 
 const Posts = () => {
   const data = useStaticQuery(graphql`
@@ -31,6 +32,7 @@ const Posts = () => {
   return (
     <Layout>
       <h1># POSTS</h1>
+      <Navblog />
       <ul className={postStyle.postList}>
         {query.map(({ node }) => {
           return (

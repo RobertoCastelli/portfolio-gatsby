@@ -61,13 +61,6 @@ const Navbar = () => {
             </ul>
           </li>
         </Link>
-        <Link
-          className={navbarStyle.navItem}
-          activeClassName={navbarStyle.activeNavItem}
-          to="/tags"
-        >
-          <li>tags</li>
-        </Link>
       </ul>
 
       <h1>{data.site.siteMetadata.title}</h1>

@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import tagsStyle from "./tags.module.css"
+import Navblog from "../components/Navblog"
 import { graphql, useStaticQuery, Link } from "gatsby"
 
 const Tags = () => {
@@ -19,6 +20,7 @@ const Tags = () => {
   return (
     <Layout>
       <h1># TAGS</h1>
+      <Navblog />
       <div className={tagsStyle.tagsContainer}>
         <ul className={tagsStyle.tagsList}>
           {query.map(tag => {

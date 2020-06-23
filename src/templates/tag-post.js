@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 import Post from "../components/Post"
 import Layout from "../components/Layout"
 import postStyle from "../components/post.module.css"
+import Navblog from "../components/Navblog"
 
 export const data = graphql`
   query($tag: String!) {
@@ -39,6 +40,7 @@ const TagPost = ({ data, location }) => {
       <h1>
         # POSTS <i>({urls})</i>
       </h1>
+      <Navblog />
       <ul className={postStyle.postList}>
         {data.allMarkdownRemark.edges.map(({ node }) => {
           return (
