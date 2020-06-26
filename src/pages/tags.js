@@ -23,9 +23,9 @@ const Tags = () => {
       <Navblog />
       <div className={tagsStyle.tagsContainer}>
         <ul className={tagsStyle.tagsList}>
-          {query.map(tag => {
+          {query.map((tag, index) => {
             return (
-              <Link to={`/tags/${tag.fieldValue}`}>
+              <Link key={index} to={`/tags/${tag.fieldValue}`}>
                 <li className={tagsStyle.tagsItem}>
                   {tag.fieldValue}
                   <span className={tagsStyle.tagsBadge}>{tag.totalCount}</span>

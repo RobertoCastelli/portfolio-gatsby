@@ -54,12 +54,10 @@ const TagPost = ({ data, location }) => {
                 />
               </Link>
               <ul className={postStyle.tagList}>
-                {node.frontmatter.tags.map((tag, i) => {
+                {node.frontmatter.tags.map((tag, index) => {
                   return (
-                    <Link to={`/tags/${tag}`}>
-                      <li key={i} className={postStyle.tagItem}>
-                        {tag}
-                      </li>
+                    <Link key={index} to={`/tags/${tag}`}>
+                      <li className={postStyle.tagItem}>{tag}</li>
                     </Link>
                   )
                 })}
