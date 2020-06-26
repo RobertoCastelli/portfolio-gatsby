@@ -32,7 +32,7 @@ const Posts = () => {
   return (
     <Layout>
       <h1># POSTS</h1>
-      <Navblog />
+      <Navblog display={"none"} />
       <ul className={postStyle.postList}>
         {query.map(({ node }) => {
           return (
