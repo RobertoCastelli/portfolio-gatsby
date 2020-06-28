@@ -4,6 +4,7 @@ import Post from "../components/Post"
 import Layout from "../components/Layout"
 import postStyle from "../components/post.module.css"
 import Navblog from "../components/Navblog"
+import Head from "../components/Head"
 
 const Posts = () => {
   const data = useStaticQuery(graphql`
@@ -31,6 +32,7 @@ const Posts = () => {
   const query = data.allMarkdownRemark.edges
   return (
     <Layout>
+      <Head title={"Posts"} />
       <h1># POSTS</h1>
       <Navblog display={"none"} />
       <ul className={postStyle.postList}>

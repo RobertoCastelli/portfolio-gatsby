@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import Project from "../components/Project"
 import projectStyle from "../components/project.module.css"
 import { graphql, useStaticQuery } from "gatsby"
+import Head from "../components/Head"
 
 const Projects = () => {
   const data = useStaticQuery(graphql`
@@ -30,6 +31,7 @@ const Projects = () => {
 
   return (
     <Layout>
+      <Head title={"Projects"} />
       <h1># PROJECTS</h1>
       <p className={projectStyle.projectTotalCount}>
         total projects: n° {data.allDataJson.totalCount}

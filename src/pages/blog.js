@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import blogStyle from "./blog.module.css"
+import Head from "../components/Head"
 import Img from "gatsby-image"
 
 const Blog = () => {
@@ -18,8 +19,9 @@ const Blog = () => {
   `)
 
   return (
-    <div>
+    <>
       <Layout>
+        <Head title={"Blog"} />
         <h1># DIARY OF AN IMPOSTOR</h1>
         <Link to="/posts">
           <Img
@@ -52,7 +54,7 @@ const Blog = () => {
           </p>
         </div>
       </Layout>
-    </div>
+    </>
   )
 }
 

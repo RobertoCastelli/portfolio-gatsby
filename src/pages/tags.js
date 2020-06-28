@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import tagsStyle from "./tags.module.css"
 import Navblog from "../components/Navblog"
 import { graphql, useStaticQuery, Link } from "gatsby"
+import Head from "../components/Head"
 
 const Tags = () => {
   const data = useStaticQuery(graphql`
@@ -19,6 +20,7 @@ const Tags = () => {
   const query = data.allMarkdownRemark.group
   return (
     <Layout>
+      <Head title={"Tags"} />
       <h1># TAGS</h1>
       <Navblog />
       <div className={tagsStyle.tagsContainer}>

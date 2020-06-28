@@ -5,10 +5,12 @@ import "./index.css"
 import { FaReact, FaGithubAlt, FaHtml5, FaCss3Alt } from "react-icons/fa"
 import { GrGatsbyjs, GrGraphQl } from "react-icons/gr"
 import { DiJavascript1 } from "react-icons/di"
+import Head from "../components/Head"
 
 export default function Home() {
   return (
     <Layout>
+      <Head title={"About"} />
       <div>
         <h1># ABOUT ME</h1>
         <p>
