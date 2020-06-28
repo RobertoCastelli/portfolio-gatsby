@@ -18,7 +18,7 @@ export default function Home() {
           youngster I had a passion for programming languages.
         </p>
         <p>
-          Recently I decided to bring into fruition my avid interest in this
+          In 2019 I decided to bring into fruition my avid interest in this
           field to enhance my career, putting every possible effort to achieve
           this goal and pursue this path.
         </p>
