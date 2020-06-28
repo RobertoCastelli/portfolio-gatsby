@@ -16,7 +16,7 @@ const Posts = () => {
               slug
             }
             frontmatter {
-              date
+              date(formatString: "MMM Do, YYYY")
               intro
               title
               tags
