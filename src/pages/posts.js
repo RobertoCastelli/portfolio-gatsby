@@ -32,8 +32,8 @@ const Posts = () => {
   const query = data.allMarkdownRemark.edges
   return (
     <Layout>
-      <Head title={"Posts"} />
-      <h1># POSTS</h1>
+      <Head title={"Pages"} />
+      <h1># PAGES</h1>
       <Navblog display={"none"} />
       <ul className={postStyle.postList}>
         {query.map(({ node }) => {
