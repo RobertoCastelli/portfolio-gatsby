@@ -20,7 +20,7 @@ export const data = graphql`
           timeToRead
           frontmatter {
             title
-            date
+            date(formatString: "MMM Do, YYYY")
             tags
             intro
           }

@@ -10,7 +10,7 @@ import Head from "../components/Head"
 export default function Home() {
   return (
     <Layout>
-      <Head title={"About"} />
+      <Head title={"Home"} />
       <div>
         <h1># ABOUT ME</h1>
         <p>
