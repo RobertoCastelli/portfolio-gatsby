@@ -148,5 +148,11 @@
     "tech": "react",
     "src": "../images/bgstore.png",
     "link": "https://to-store.netlify.com/"
+  },
+  {
+    "title": "MOVIES DB",
+    "tech": "react, api",
+    "src": "../images/bgmovies.png",
+    "link": "https://to-movies.netlify.com/"
   }
 ]
