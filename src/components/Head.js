@@ -9,6 +9,7 @@ const Head = ({ title }) => {
         siteMetadata {
           title
           author
+          description
         }
       }
     }
@@ -19,9 +20,13 @@ const Head = ({ title }) => {
       <Helmet
         title={`${title} | ${data.site.siteMetadata.title}`}
         defer={false}
-      />
-      <Helmet>
+      >
         <meta name="author" content={data.site.siteMetadata.author} />
+        <meta
+          name="description"
+          property="og:description"
+          content={data.site.siteMetadata.description}
+        />
       </Helmet>
     </>
   )
