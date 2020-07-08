@@ -22,6 +22,7 @@ const Head = ({ title }) => {
         defer={false}
       >
         <meta name="author" content={data.site.siteMetadata.author} />
+        <meta name="image" property="og:image" content="/dune.jpg"></meta>
         <meta
           name="description"
           property="og:description"
