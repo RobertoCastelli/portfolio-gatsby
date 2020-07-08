@@ -3,7 +3,7 @@ module.exports = {
     title: `Roberto Castelli`,
     description: `Project Manager & Web Developer`,
     author: `Roberto Castelli`,
-    siteURL: `www.robertocastelli.dev`,
+    siteURL: `robertocastelli.dev`,
   },
   plugins: [
     {

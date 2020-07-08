@@ -8,6 +8,7 @@ const Head = ({ title }) => {
       site {
         siteMetadata {
           title
+          author
         }
       }
     }
@@ -19,6 +20,9 @@ const Head = ({ title }) => {
         title={`${title} | ${data.site.siteMetadata.title}`}
         defer={false}
       />
+      <Helmet>
+        <meta name="author" content={data.site.siteMetadata.author} />
+      </Helmet>
     </>
   )
 }
