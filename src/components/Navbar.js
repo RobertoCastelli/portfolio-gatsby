@@ -10,7 +10,6 @@ const Navbar = () => {
         siteMetadata {
           author
           title
-          description
         }
       }
       file(relativePath: { eq: "logo.png" }) {
@@ -62,9 +61,8 @@ const Navbar = () => {
           </li>
         </Link>
       </ul>
-
       <h1>{data.site.siteMetadata.title}</h1>
-      <p>{data.site.siteMetadata.description}</p>
+      <p>Project Manager & Web Developer</p>
     </nav>
   )
 }
