@@ -154,5 +154,11 @@
     "tech": "react, api",
     "src": "../images/bgmovies.png",
     "link": "https://to-movies.netlify.com/"
+  },
+  {
+    "title": "CALCULATOR",
+    "tech": "react",
+    "src": "../images/bgcalculator.jpg",
+    "link": "https://to-calculator.netlify.com/"
   }
 ]
