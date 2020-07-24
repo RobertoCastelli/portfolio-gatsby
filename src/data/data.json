@@ -160,5 +160,11 @@
     "tech": "react",
     "src": "../images/bgcalculator.jpg",
     "link": "https://to-calculator.netlify.com/"
+  },
+  {
+    "title": "LOL TRACKER",
+    "tech": "react, api",
+    "src": "../images/bglol.jpg",
+    "link": "https://to-lol-tracker.netlify.com/"
   }
 ]
