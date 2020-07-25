@@ -115,9 +115,9 @@
   },
   {
     "title": "PORTFOLIO",
-    "tech": "javascript",
+    "tech": "react",
     "src": "../images/bgportfolio.jpg",
-    "link": "https://to-portfolio.netlify.com/"
+    "link": "https://to-portfolio-react.netlify.app/"
   },
   {
     "title": "ALGORYTHMS ADVANCED",
