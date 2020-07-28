@@ -166,5 +166,11 @@
     "tech": "react, api",
     "src": "../images/bglol.jpg",
     "link": "https://to-lol-tracker.netlify.com/"
+  },
+  {
+    "title": "CSS GENERATOR",
+    "tech": "react",
+    "src": "../images/bggenerator.png",
+    "link": "https://to-css-generator.netlify.com/"
   }
 ]
