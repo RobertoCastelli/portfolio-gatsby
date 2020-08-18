@@ -172,5 +172,11 @@
     "tech": "react",
     "src": "../images/bggenerator.png",
     "link": "https://to-css-generator.netlify.com/"
+  },
+  {
+    "title": "BATTLE ARENA",
+    "tech": "javascript",
+    "src": "../images/bgbattlearena.jpg",
+    "link": "https://to-battle.netlify.com/"
   }
 ]
