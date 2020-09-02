@@ -175,8 +175,8 @@
   },
   {
     "title": "BATTLE ARENA",
-    "tech": "javascript",
+    "tech": "react",
     "src": "../images/bgbattlearena.jpg",
-    "link": "https://to-battle.netlify.com/"
+    "link": "https://to-react-battle.netlify.com/"
   }
 ]
