@@ -178,5 +178,12 @@
     "tech": "react",
     "src": "../images/bgbattlearena.jpg",
     "link": "https://to-react-battle.netlify.com/"
+  },
+  {
+    "title": "COVID-19",
+    "tech": "react",
+    "src": "../images/bgcovid.jpg",
+    "link": "https://to-covid.netlify.com/"
   }
+  
 ]
