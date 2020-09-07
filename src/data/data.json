@@ -184,6 +184,12 @@
     "tech": "react",
     "src": "../images/bgcovid.jpg",
     "link": "https://to-covid.netlify.com/"
+  },
+    {
+    "title": "PIXEL ART",
+    "tech": "react",
+    "src": "../images/bgpixel.jpg",
+    "link": "https://to-pixel-art.netlify.com/"
   }
   
 ]
