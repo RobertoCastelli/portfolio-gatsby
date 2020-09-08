@@ -20,7 +20,7 @@ const Footer = () => {
       <ul className={footerStyle.footerList}>
         <li className={footerStyle.footerItem}>
           <a
-            href="https://robertocastelli.netlify.app/"
+            href="https://robertocastelli.dev/"
             target="_blank"
             rel="noopener noreferrer"
           >
