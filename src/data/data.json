@@ -185,11 +185,16 @@
     "src": "../images/bgcovid.jpg",
     "link": "https://to-covid.netlify.com/"
   },
-    {
+  {
     "title": "PIXEL ART",
     "tech": "react",
     "src": "../images/bgpixel.png",
     "link": "https://to-pixel-art.netlify.com/"
+  },
+  {
+    "title": "GAME OF LIFE",
+    "tech": "react",
+    "src": "../images/bggame.png",
+    "link": "https://to-gol.netlify.com/"
   }
-  
 ]
