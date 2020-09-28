@@ -2,9 +2,9 @@ import React from "react"
 import Layout from "../components/Layout"
 import indexStyle from "./index.module.css"
 import "./index.css"
-import { FaReact, FaGithubAlt, FaHtml5, FaCss3Alt } from "react-icons/fa"
 import { GrGatsbyjs, GrGraphQl } from "react-icons/gr"
-import { DiJavascript1 } from "react-icons/di"
+import { FaReact, FaGithubAlt, FaHtml5, FaCss3Alt } from "react-icons/fa"
+import { SiJavascript, SiTypescript } from "react-icons/si"
 import Head from "../components/Head"
 
 export default function Home() {
@@ -37,7 +37,16 @@ export default function Home() {
             rel="noreferrer noopener"
           >
             <li>
-              <DiJavascript1 /> JS (<FaHtml5 /> HTML + <FaCss3Alt /> CSS)
+              <SiJavascript /> JAVASCRIPT
+            </li>
+          </a>
+          <a
+            href="https://developer.mozilla.org/it/docs/Web/JavaScript"
+            target="_black"
+            rel="noreferrer noopener"
+          >
+            <li>
+              <FaHtml5 /> HTML + <FaCss3Alt /> CSS
             </li>
           </a>
           <a
@@ -50,12 +59,24 @@ export default function Home() {
             </li>
           </a>
           <a
-            href="https://www.gatsbyjs.org/"
+            href="https://github.com/RobertoCastelli"
             target="_blank"
             rel="noreferrer noopener"
           >
             <li>
-              <GrGatsbyjs /> GATSBY
+              <FaGithubAlt /> GIT
+            </li>
+          </a>
+        </ul>
+        <h1># LEARNING</h1>
+        <ul className={indexStyle.indexList}>
+          <a
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <li>
+              <SiTypescript /> TYPESCRIPT
             </li>
           </a>
           <a
@@ -68,12 +89,12 @@ export default function Home() {
             </li>
           </a>
           <a
-            href="https://github.com/RobertoCastelli"
+            href="https://www.gatsbyjs.org/"
             target="_blank"
             rel="noreferrer noopener"
           >
             <li>
-              <FaGithubAlt /> GIT
+              <GrGatsbyjs /> GATSBY
             </li>
           </a>
         </ul>
