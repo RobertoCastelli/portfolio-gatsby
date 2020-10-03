@@ -196,5 +196,11 @@
     "tech": "react",
     "src": "../images/bggame.png",
     "link": "https://to-gol.netlify.com/"
+  },
+  {
+    "title": "AUTH TEST",
+    "tech": "react",
+    "src": "../images/bgauth.png",
+    "link": "https://to-auth.netlify.com/"
   }
 ]
