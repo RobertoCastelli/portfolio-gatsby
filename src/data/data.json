@@ -203,4 +203,10 @@
     "src": "../images/bgauth.png",
     "link": "https://to-auth.netlify.com/"
   }
+  {
+    "title": "HANGMAN",
+    "tech": "react",
+    "src": "../images/bghangman.jpg",
+    "link": "https://to-hangman.netlify.com/"
+  }
 ]
