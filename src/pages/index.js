@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import indexStyle from "./index.module.css"
 import "./index.css"
-import { GrGatsbyjs, GrGraphQl } from "react-icons/gr"
+import { GrGraphQl, GrNode } from "react-icons/gr"
 import { FaReact, FaGithubAlt, FaHtml5, FaCss3Alt } from "react-icons/fa"
 import { SiJavascript, SiTypescript } from "react-icons/si"
 import Head from "../components/Head"
@@ -89,12 +89,12 @@ export default function Home() {
             </li>
           </a>
           <a
-            href="https://www.gatsbyjs.org/"
+            href="https://nodejs.org/en/"
             target="_blank"
             rel="noreferrer noopener"
           >
             <li>
-              <GrGatsbyjs /> GATSBY
+              <GrNode /> NODE JS
             </li>
           </a>
         </ul>
