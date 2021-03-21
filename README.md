@@ -1,4 +1,4 @@
-## Roberto Castelli's portfolio
+## 🧔 Roberto Castelli's portfolio
 
 > Projects & Blog
 > made with React & Gatsby
