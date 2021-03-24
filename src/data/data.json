@@ -208,5 +208,11 @@
     "tech": "react",
     "src": "../images/bghangman.jpg",
     "link": "https://to-hangman.netlify.com/"
+  },
+  {
+    "title": "TICK@POLI",
+    "tech": "react",
+    "src": "../images/blogtypescript.png",
+    "link": "https://ticket-polimi.netlify.com/"
   }
 ]
